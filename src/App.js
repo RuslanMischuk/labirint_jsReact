@@ -10,7 +10,7 @@ import { calculateMoves } from "./utils/calculateMoves";
 
 const App = () => {
 
-  const sizeOfBoard = 5;
+  const sizeOfBoard = 3;
   const maxMoves = 10;
   const gameBoard = Array(sizeOfBoard).fill(0).map(() => Array(sizeOfBoard).fill("0"));
 
@@ -50,7 +50,7 @@ const App = () => {
   if (arrMoves.length !== 0 && arrowCounter < maxMoves) {
     setTimeout(() => {
       setArrowCounter(arrowCounter + 1);
-    }, 100)  // 600
+    }, 600)  
   }
 
   return (
