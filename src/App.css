@@ -1,0 +1,86 @@
+ body{
+  zoom: 75%;
+  background-color: #c8c8c8; 
+ }  
+
+.grid-main {
+  display: grid;
+  grid-template-columns: auto;
+  width: 30%;
+  height: 30%; 
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-right: 20%;  
+  margin-left: 20%; 
+}
+
+.grid-container {  
+  display: grid;
+  width: 640px;
+  grid-gap: 5px;
+  background-color: #f8faf8;
+  grid-column-gap: 4px;
+  grid-row-gap: 4px;
+  padding: 5px;
+}
+ 
+.grid-container > button {
+  display: grid;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 20 px; 
+  padding-bottom: 95%;
+  height: 0;
+  font-size: 50px; 
+}
+
+.grid-ArrowPointer  {  
+  display: grid;
+  width: 640px;
+  grid-gap: 20px;
+  grid-column-gap: 5px; 
+  grid-row-gap: 5px;
+  background-color: #c8c8c8;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.grid-ArrowPointer > div > img { 
+  width: 100%;
+  height: 100%;
+  object-fit: cover;   
+ }
+
+ .buttonNewGame {
+  background-color:  rgb(138, 8, 8);
+  width: 645px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.buttonNewGameDisabled {
+  background-color:  black; 
+  width: 645px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  cursor: not-allowed;
+}

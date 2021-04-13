@@ -1,0 +1,1 @@
+export const getStartCoordinates = (sizeOfBoard) => Math.floor(Math.random() * sizeOfBoard);
